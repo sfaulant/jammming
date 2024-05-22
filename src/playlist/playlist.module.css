@@ -7,4 +7,28 @@
     color: #fff;
     text-align: center;
     font-size: 1.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* BUTTON */
+
+.Button {
+    display: block;
+    margin: 2rem auto;
+    background-color: #C98F9B;
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 15px;
+    border: none;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.Button:hover {
+    background-color: #9E8493;
+}
+
+.Button:active {
+    background-color: #F09E95;
 }

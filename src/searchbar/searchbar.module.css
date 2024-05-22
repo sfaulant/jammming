@@ -5,15 +5,28 @@
     width: 20rem;
     height: 2.5rem;
     border-radius: 10px;
-    color: rgb(211, 211, 211);
-    text-align: center;
     font-size: 1.2rem;
+    box-sizing: border-box;
+    padding-left: 1rem;
 }
 
-/*  NEED TO FIX BORDER WHEN ACTIVE, CLEAR PLACEHOLDER WHEN CLICKED, TEXT-ALIGN WHEN ACTIVE
-.SearchInput:active {
-border: none;
-} */
+
+.SearchInput:focus {
+    text-align: left;
+    outline: none;
+    padding-left: 1rem;
+  }
+  
+  
+  .SearchInput::placeholder {
+    text-align: center; 
+    color: rgb(211, 211, 211);
+  }
+
+  .SearchInput:focus::placeholder {
+    opacity: 0; 
+  }
+
 
 .Submit {
     display: block;
@@ -26,4 +39,12 @@ border: none;
     font-size: 1.2rem;
     color: #fff;
     font-weight: 600;
+}
+
+.Submit:hover {
+    background-color: #9E8493;
+}
+
+.Submit:active {
+    background-color: #F09E95;
 }
