@@ -1,7 +1,7 @@
 .App {
   background-image: url("C:\Users\sarah\Documents\projects\jammming\public\app-background.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center;
   padding-bottom: 5rem;
 }

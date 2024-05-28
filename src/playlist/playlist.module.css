@@ -3,11 +3,21 @@
     width: 43%;
 }
 
-.Playlist {
+.Input {
+    margin-block-start: 0.83em;
+    margin-inline-start: 1.6rem;
+    font-weight: bold;
+    background: none;
+    outline: none;
+    border: none;
     color: #fff;
-    text-align: center;
     font-size: 1.8rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Hr {
+    margin-block-start: 0.9rem;
+    width: 90%;
 }
 
 /* BUTTON */
@@ -32,3 +42,4 @@
 .Button:active {
     background-color: #F09E95;
 }
+
